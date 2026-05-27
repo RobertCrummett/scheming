@@ -19,3 +19,7 @@
 17. faster_fibonacci.scm
 18. greatest_common_devisor.scm
 19. prime_numbers.scm
+
+# REFERENCE
+
+[SCIP](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html)

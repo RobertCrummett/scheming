@@ -1,4 +1,6 @@
-# JUMP START
+# CHAPTER ONE
+
+[Chapter 1](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-9.html#%_chap_1)
 
 1. hello_world.scm
 2. squaring.scm
@@ -6,8 +8,8 @@
 4. more_complicated_functions.scm
 5. operators_as_compound_exprs.scm
 6. ben_bitdiddles_test.scm
-7. newtons_method.scm
-8. newtons_method_lexical_scoping.scm
+7. sqrt_by_newtons_method.scm
+8. lexical_scoping.scm
 9. factorial.scm
 10. process_examples.scm
 11. ackermann_func.scm
@@ -25,7 +27,12 @@
 23. fixed_points.scm
 24. continued_fractions.scm
 25. average_damping.scm
+26. newtons_method.scm
+
+# CHAPTER TWO
+
+[Chapter 2](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-13.html#%_chap_2)
 
 # REFERENCE
 
-[SCIP](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html)
+[SCIP](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book.html)

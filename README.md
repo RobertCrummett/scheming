@@ -19,6 +19,12 @@
 17. faster_fibonacci.scm
 18. greatest_common_devisor.scm
 19. prime_numbers.scm
+20. procedures_as_arguments.scm
+21. let.scm
+22. half_interval_method.scm
+23. fixed_points.scm
+24. continued_fractions.scm
+25. average_damping.scm
 
 # REFERENCE
 

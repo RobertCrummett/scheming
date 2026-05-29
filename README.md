@@ -33,6 +33,11 @@
 
 [Chapter 2](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-13.html#%_chap_2)
 
+1. wishful_thinking.scm
+2. pairs.scm
+3. representing_rational_nums.scm
+4. points_and_segments.scm
+
 # REFERENCE
 
 [SCIP](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book.html)

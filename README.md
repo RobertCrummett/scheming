@@ -37,6 +37,9 @@
 2. pairs.scm
 3. representing_rational_nums.scm
 4. points_and_segments.scm
+5. custom_cons.scm
+6. more_custom_cons.scm
+7. church_numerals.scm
 
 # REFERENCE
 

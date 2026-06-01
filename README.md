@@ -40,6 +40,10 @@
 5. custom_cons.scm
 6. more_custom_cons.scm
 7. church_numerals.scm
+8. interval_arithmetic.scm
+9. sequences.scm
+10. list_operations.scm
+11. parity.scm
 
 # REFERENCE
 

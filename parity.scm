@@ -1,5 +1,5 @@
-; Functions with variable number of arguments (the final
-; argument is a list with the 'dot' syntax).
+; Functions with variable number of arguments (the 
+; final argument is a list with the 'dot' syntax).
 
 (define (same-parity x . args)
   (define parity?

@@ -44,6 +44,11 @@
 9. sequences.scm
 10. list_operations.scm
 11. parity.scm
+12. mappings.scm
+13. foreach.scm
+14. lists_as_trees.scm
+15. binary_mobile.scm
+16. power_set.scm
 
 # REFERENCE
 

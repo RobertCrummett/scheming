@@ -61,7 +61,7 @@
     (if (null? partial)
       reversed
       (reversal-iter (cdr partial) (cons (car partial) reversed))))
-  (reversal-iter items '()))
+  (reversal-iter items nil))
 
 (newline)
 (newline)

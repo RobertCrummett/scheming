@@ -19,8 +19,6 @@
 (newline)
 (display (matrix-*-vector mat vec))
 
-(define nil '())
-
 (define (accumulate-n op init seqs)
   (if (null? (car seqs))
     nil

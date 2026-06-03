@@ -31,7 +31,7 @@
 
 (define (fringe x)
   (cond ((null? x)
-         '())
+         nil)
         ((not (pair? x))
          (list x))
         (else
@@ -48,7 +48,7 @@
 ; Together, recursion and maps are a powerful means to navigate trees.
 
 (define (scale-tree tree factor)
-  (cond ((null? tree) '())
+  (cond ((null? tree) nil)
         ((not (pair? tree)) (* tree factor))
         (else (cons (scale-tree (car tree) factor)
                     (scale-tree (cdr tree) factor)))))
@@ -73,7 +73,7 @@
 (define square (lambda (x) (* x x)))
 
 (define (square-tree tree)
-  (cond ((null? tree) '())
+  (cond ((null? tree) nil)
         ((not (pair? tree)) (square tree))
         (else (cons (square-tree (car tree))
                     (square-tree (cdr tree))))))

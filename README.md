@@ -1,4 +1,30 @@
-# CHAPTER ONE
+## Structure and Interpretation of Computer Programs
+
+These are my solutions to some of the problems in 
+[the Wizard Book](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html).
+I am reading through the book as a form of intellectual
+pleasure this Summer, Year 2026.
+
+## Quickstart
+
+I use [Racket](https://racket-lang.org/) for this project,
+and the sicp package available within the raco ecosystem.
+
+To install the scip package, add the Racket installation to
+your path and run the following command to install the package:
+
+```console
+$ raco pkg install sicp
+```
+
+Now you should be able to run the code like this,
+
+```console
+$ racket hello_world.rkt
+> Hello, World.
+```
+
+## Chapter One
 
 [Chapter 1](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-9.html#%_chap_1)
 
@@ -29,7 +55,7 @@
 25. average_damping.rkt
 26. newtons_method.rkt
 
-# CHAPTER TWO
+## Chapter Two
 
 [Chapter 2](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-13.html#%_chap_2)
 
@@ -52,7 +78,8 @@
 17. sequences_as_interfaces.rkt
 18. matrix_ops.rkt
 19. folding_left_and_right.rkt
+20. flatmap.rkt
 
-# REFERENCE
+## Reference
 
 [SCIP](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book.html)

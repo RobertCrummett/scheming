@@ -1,12 +1,12 @@
 #lang sicp
 ; Iterative procedure to compute k-term finite continued fractions
 (define (cont-frac n-term d-term k)
-  (define (iter count bottom)
-    (if (= count 0)
+  (define (iter step bottom)
+    (if (= step 0)
       bottom
-      (iter (- count 1) 
-            (/ (n-term count) 
-               (+ bottom (d-term count))))))
+      (iter (- step 1) 
+            (/ (n-term step) 
+               (+ bottom (d-term step))))))
   (iter k 0.0))
 
 ; Experiments with the golden ratio!

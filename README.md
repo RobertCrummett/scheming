@@ -79,6 +79,9 @@ $ racket hello_world.rkt
 18. matrix_ops.rkt
 19. folding_left_and_right.rkt
 20. flatmap.rkt
+21. permutations.rkt
+22. unique_pairs.rkt
+23. ordered_triples.rkt
 
 ## Reference
 

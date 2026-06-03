@@ -1,4 +1,5 @@
 #lang sicp
+
 (define (average x y)
   (/ (+ x y) 2))
 
@@ -6,6 +7,7 @@
   (lambda (x) (average x (f x))))
 
 (define (square x) (* x x))
+
 (display "The damped version of square is ")
 (display ((average-damp square) 10))
 (newline)

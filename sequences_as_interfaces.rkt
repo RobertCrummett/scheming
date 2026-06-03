@@ -122,7 +122,7 @@
 (newline)
 (display (count-leaves (list 1 (list 2 (list 3 4) 5))))
 
-(define (count-leaves t)
+(define (count-leaves-2 t)
   (accumulate + 0 (map (lambda (x)
                          (if (pair? x)
                            (count-leaves x)
@@ -130,7 +130,7 @@
                        t)))
 
 (newline)
-(display (count-leaves (list 1 (list 2 (list 3 4) 5))))
+(display (count-leaves-2 (list 1 (list 2 (list 3 4) 5))))
 
 (define (accumulate-n op init seqs)
   (if (null? (car seqs))

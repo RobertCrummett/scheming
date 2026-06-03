@@ -11,7 +11,7 @@
       (if (parity? (car rest))
         (iter (cons (car rest) result) (cdr rest))
         (iter result (cdr rest)))))
-  (cons x (iter '() args)))
+  (cons x (iter nil args)))
 
 (newline)
 (newline)

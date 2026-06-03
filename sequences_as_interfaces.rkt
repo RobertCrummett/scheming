@@ -1,7 +1,7 @@
 #lang sicp
 
 (define (filter predicate sequence)
-  (cond ((null? sequence) '())
+  (cond ((null? sequence) nil)
         ((predicate (car sequence))
          (cons (car sequence)
                (filter predicate (cdr sequence))))
@@ -22,11 +22,11 @@
 (newline)
 (display (accumulate * 1 (list 1 2 3 4 5)))
 (newline)
-(display (accumulate cons '() (list 1 2 3 4 5)))
+(display (accumulate cons nil (list 1 2 3 4 5)))
 
 (define (enumerate-interval low high)
   (if (> low high)
-    '()
+    nil
     (cons low (enumerate-interval (+ low 1) high))))
 
 (newline)
@@ -34,7 +34,7 @@
 (display (enumerate-interval 2 7))
 
 (define (enumerate-tree tree)
-  (cond ((null? tree) '())
+  (cond ((null? tree) nil)
         ((not (pair? tree)) (list tree))
         (else (append (enumerate-tree (car tree))
                       (enumerate-tree (cdr tree))))))
@@ -68,8 +68,6 @@
                            q
                            (- count 1)))))
   (fib-iter 1 0 0 1 n))
-
-(define nil '())
 
 (define (even-fibs n)
   (accumulate

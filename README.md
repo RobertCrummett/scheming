@@ -85,6 +85,9 @@ $ racket hello_world.rkt
 24. queens.rkt
 25. queens_faster.rkt
 26. queens_symmetry.rkt
+27. memq.rkt
+28. quote_craziness.rkt
+29. symbolic_differentiation.rkt
 
 ## Reference
 

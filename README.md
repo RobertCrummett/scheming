@@ -82,6 +82,9 @@ $ racket hello_world.rkt
 21. permutations.rkt
 22. unique_pairs.rkt
 23. ordered_triples.rkt
+24. queens.rkt
+25. queens_faster.rkt
+26. queens_symmetry.rkt
 
 ## Reference
 

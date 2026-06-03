@@ -51,6 +51,7 @@
 16. power_set.rkt
 17. sequences_as_interfaces.rkt
 18. matrix_ops.rkt
+19. folding_left_and_right.rkt
 
 # REFERENCE
 

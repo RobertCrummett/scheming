@@ -1,3 +1,4 @@
+#lang sicp
 ; We can represent pairs as procedures!
 
 (define (my-cons x y)
@@ -44,4 +45,3 @@
 (newline)
 (display (my-cdr pair))
 
-(exit)

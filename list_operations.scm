@@ -1,3 +1,4 @@
+#lang sicp
 (define (my-list-ref items n)
   (if (= n 0)
     (car items)
@@ -68,4 +69,3 @@
 (newline)
 (display (reverse squares))
 
-(exit)

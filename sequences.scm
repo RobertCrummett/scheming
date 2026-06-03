@@ -1,3 +1,4 @@
+#lang sicp
 ; These are sequences!
 
 (newline)
@@ -28,4 +29,3 @@
 
 (view-list one-through-four)
 
-(exit)

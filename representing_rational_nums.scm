@@ -1,3 +1,4 @@
+#lang sicp
 (define (make-rat n d) (cons n d))
 
 (define (numer x) (car x))
@@ -42,4 +43,3 @@
 (display "One half as a rational: ")
 (print-rat one-half)
 
-(exit)

@@ -1,3 +1,4 @@
+#lang sicp
 ; This was tough to think through, even after looking up the solution.
 
 (define (subsets s)
@@ -24,4 +25,3 @@
 ; This process will continue, each time duplicating the current rest list but
 ; appending a new number to the second.
 
-(exit)

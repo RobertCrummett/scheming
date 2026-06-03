@@ -1,3 +1,4 @@
+#lang sicp
 ; Using let to create local variables. Here we have three
 ; equivalent defintions of the same function
 (define (square x) (* x x))
@@ -25,4 +26,3 @@
        (* y b)
        (* a b))))
 
-(exit)

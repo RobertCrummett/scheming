@@ -1,3 +1,4 @@
+#lang sicp
 (define tolerance 0.00001)
 
 (define (fixed-point f first-guess)
@@ -42,4 +43,3 @@
 ; In some places, this technique of modified successive approximations is referred
 ; to as average damping.
 
-(exit)

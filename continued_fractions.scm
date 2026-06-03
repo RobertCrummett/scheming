@@ -1,3 +1,4 @@
+#lang sicp
 ; Iterative procedure to compute k-term finite continued fractions
 (define (cont-frac n-term d-term k)
   (define (iter count bottom)
@@ -80,4 +81,3 @@
 (display (tan-cf r k))
 (newline)
 
-(exit)

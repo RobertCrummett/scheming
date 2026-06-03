@@ -1,3 +1,4 @@
+#lang sicp
 (define (average x y)
   (/ (+ x y) 2))
 
@@ -30,4 +31,3 @@
   (fixed-point (average-damp (lambda (y) (/ x (square y))))
                1.0))
 
-(exit)

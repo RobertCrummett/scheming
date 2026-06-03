@@ -1,3 +1,4 @@
+#lang sicp
 ; IMPLEMENTATION ONE
 (define (abs x)
   (cond
@@ -19,4 +20,3 @@
 
 (define a -5)
 (display (format "The absolute value of ~a is ~a~%" a (abs a)))
-(exit)

@@ -1,3 +1,4 @@
+#lang sicp
 ; Linear recursive process => THETA(n) steps and THETA(n) space
 (define (expt b n)
   (if (= n 0)
@@ -18,4 +19,3 @@
 (display (expt 2 8))
 (newline)
 
-(exit)

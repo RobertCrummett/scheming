@@ -1,3 +1,4 @@
+#lang sicp
 ; This is an iterative procedure to generate Fibonacci numbers
 ; in logarithmic time and constant space. The trick is to find
 ; an operator to describe the state transition, and then to square
@@ -26,4 +27,3 @@
 (display " (expected 102334155)")
 (newline)
 
-(exit)

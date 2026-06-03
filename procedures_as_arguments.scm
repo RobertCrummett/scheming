@@ -1,3 +1,4 @@
+#lang sicp
 ; EXAMPLE ONE
 (define (cube x) (* x x x))
 
@@ -86,4 +87,3 @@
 (display (integral cube 0 1 0.001))
 (newline)
 
-(exit)

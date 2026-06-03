@@ -1,3 +1,4 @@
+#lang sicp
 ; Euclid's algorithm: An iterative process for the greatest
 ; common divisior with a logarithmic number of steps.
 (define (gcd a b)
@@ -16,4 +17,3 @@
 (display (gcd a b))
 (newline)
 
-(exit)

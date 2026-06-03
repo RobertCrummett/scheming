@@ -1,3 +1,4 @@
+#lang sicp
 ; Some algorithms to test for prime numbers.
 
 ; IMPLEMENTATION ONE, with growth THETA(sqrt(n))
@@ -57,4 +58,3 @@
 (display " (probably)")
 (newline)
 
-(exit)

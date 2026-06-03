@@ -1,3 +1,4 @@
+#lang sicp
 ; Here we use lambdas.
 (define (sum term a next b)
   (define (iter a result)
@@ -22,4 +23,3 @@
           b)
      dx))
 
-(exit)

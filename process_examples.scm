@@ -1,3 +1,4 @@
+#lang sicp
 (define (inc a) (+ a 1))
 (define (dec a) (- a 1))
 
@@ -24,4 +25,3 @@
 
 (display (format "a + b = ~a~%" (+ a b)))
 
-(exit)

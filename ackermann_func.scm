@@ -1,3 +1,4 @@
+#lang sicp
 ; Ackermann's function
 (define (A x y)
   (cond ((= y 0) 0)
@@ -13,4 +14,3 @@
 (display (A 3 3))
 (newline)
 
-(exit)

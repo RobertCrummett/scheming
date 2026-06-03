@@ -1,3 +1,4 @@
+#lang sicp
 (define dx 0.00001)
 
 (define (deriv g)
@@ -46,4 +47,3 @@
 (display (newton-sqrt 2.0))
 (newline)
 
-(exit)

@@ -1,3 +1,4 @@
+#lang sicp
 ; IMPLEMENTATION ONE, a linear recursive process
 ; Program state not encapsulated by arguments.
 (define (factorial n)
@@ -22,4 +23,3 @@
 (exit)
 
 ; REFERENCES
-; https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-11.html

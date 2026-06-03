@@ -1,3 +1,4 @@
+#lang sicp
 ; Approximate sine of an angle (specified in radians)
 
 (define (cube x) (* x x x))
@@ -17,4 +18,3 @@
 (display (sin 12.15))
 (newline)
 
-(exit)

@@ -49,6 +49,8 @@
 14. lists_as_trees.scm
 15. binary_mobile.scm
 16. power_set.scm
+17. sequences_as_interfaces.scm
+18. matrix_ops.scm
 
 # REFERENCE
 

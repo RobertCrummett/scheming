@@ -1,3 +1,4 @@
+#lang sicp
 (for-each (lambda (x)
             (newline)
             (display x))
@@ -35,4 +36,3 @@
                (display x))
              (list 14 25 36))
 
-(exit)

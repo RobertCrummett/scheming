@@ -1,3 +1,4 @@
+#lang sicp
 ; A prototypical example of tree recursion; two calls to fib each time, in general.
 ;
 ; Recusive procedure definition of Fibonacci sequence
@@ -25,4 +26,3 @@
 (display (fib n))
 (newline)
 
-(exit)

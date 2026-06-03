@@ -1,3 +1,4 @@
+#lang sicp
 ; Church numerals.
 ; Church numerals are actions, not objects. Apply f to x zero times:
 
@@ -22,4 +23,3 @@
     (lambda (x)
       (f (f x))))) ; TWO APPLICATION OF F
 
-(exit)

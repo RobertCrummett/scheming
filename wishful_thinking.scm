@@ -1,3 +1,4 @@
+#lang sicp
 ;
 ;             ~~ WISHFUL THINKING ~~
 ;
@@ -25,4 +26,3 @@
   (= (* (numer x) (denom y))
      (* (numer y) (denom x))))
 
-(exit)

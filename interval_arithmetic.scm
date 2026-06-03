@@ -1,3 +1,4 @@
+#lang sicp
 (define (make-interval a b)
   (cons a b))
 
@@ -28,4 +29,3 @@
                 (make-interval (/ 1.0 (upper-bound y))
                                (/ 1.0 (lower-bound y)))))
 
-(exit)

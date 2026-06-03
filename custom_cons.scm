@@ -1,3 +1,4 @@
+#lang sicp
 ; Is this data?!
 
 (define (my-cons x y)
@@ -15,4 +16,3 @@
 (display (my-cdr pair))
 (newline)
 
-(exit)

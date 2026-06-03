@@ -1,3 +1,4 @@
+#lang sicp
 ; Faster exponentiation, via iterated logarithms
 
 ; In this implementation, the number of calls grows
@@ -35,4 +36,3 @@
 (display (fast-expt 2 9))
 (newline)
 
-(exit)

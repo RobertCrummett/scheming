@@ -1,3 +1,4 @@
+#lang sicp
 ; Functions with variable number of arguments (the 
 ; final argument is a list with the 'dot' syntax).
 
@@ -18,4 +19,3 @@
 (newline)
 (display (same-parity 2 3 4 5 6 7))
 
-(exit)

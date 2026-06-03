@@ -1,3 +1,4 @@
+#lang sicp
 (define (scale-list items factor)
   (if (null? items)
     '()
@@ -47,4 +48,3 @@
 (newline)
 (display (square-list test-list))
 
-(exit)

@@ -1,3 +1,4 @@
+#lang sicp
 ; Constructors and selectors for points
 (define (make-point x y)
   (cons x y))
@@ -46,4 +47,3 @@
 
 (print-point (midpoint-segment seg))
 
-(exit)

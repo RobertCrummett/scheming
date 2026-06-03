@@ -1,3 +1,4 @@
+#lang sicp
 ; Multiplication by repeated addition.
 (define (* a b)
   (if (= b 0)
@@ -41,4 +42,3 @@
 (display (* 5 41))
 (newline)
 
-(exit)

@@ -1,3 +1,4 @@
+#lang sicp
 (define (make-mobile left right)
   (list left right))
 
@@ -43,4 +44,3 @@
 ; If the constructors change, only the getters need to be modified to make
 ; the rest of the code work.
 
-(exit)

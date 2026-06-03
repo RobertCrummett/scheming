@@ -1,3 +1,4 @@
+#lang sicp
 ; Half interval method
 (define (average x y) (/ (+ x y) 2))
 
@@ -36,4 +37,3 @@
 (newline)
 
 
-(exit)

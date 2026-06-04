@@ -75,14 +75,7 @@
               WHA YIP YIP YIP YIP YIP YIP YIP YIP YIP
               SHA BOOM))
 
-(define song-symbol-frequency-pairs '((NA 16)
-                                      (YIP 9)
-                                      (SHA 3)
-                                      (A 2)
-                                      (GET 2)
-                                      (JOB 2)
-                                      (BOOM 1)
-                                      (WHA 1)))
+(define song-symbol-frequency-pairs '((NA 16) (YIP 9) (SHA 3) (A 2) (GET 2) (JOB 2) (BOOM 1) (WHA 1)))
 
 (define huffman-tree (generate-huffman-tree song-symbol-frequency-pairs))
 (define encoded-song (encode song huffman-tree))

@@ -93,6 +93,9 @@ $ racket hello_world.rkt
 31. sets_as_binary_trees.rkt
 32. huffman_encoding.rkt
 32. huffman_encoding_1950s_rock_song.rkt
+33. dispatch_on_type_complex_numbers.rkt
+33. data_directed_complex_numbers.rkt
+
 
 ## Reference
 

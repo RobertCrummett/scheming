@@ -92,6 +92,7 @@ $ racket hello_world.rkt
 30. sets_as_ordered_lists.rkt
 31. sets_as_binary_trees.rkt
 32. huffman_encoding.rkt
+32. huffman_encoding_1950s_rock_song.rkt
 
 ## Reference
 

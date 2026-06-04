@@ -88,6 +88,10 @@ $ racket hello_world.rkt
 27. memq.rkt
 28. quote_craziness.rkt
 29. symbolic_differentiation.rkt
+30. sets_as_unordered_lists.rkt
+30. sets_as_ordered_lists.rkt
+31. sets_as_binary_trees.rkt
+32. huffman_encoding.rkt
 
 ## Reference
 

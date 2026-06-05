@@ -117,6 +117,7 @@ Once sicp has been installed, any script should begin with the
 5. rand.rkt
 6. monte_carlo.rkt
 7. monte_carlo_integration.rkt
+8. order_of_evaluation.rkt
 
 ## Book Reference
 

@@ -114,6 +114,9 @@ Once sicp has been installed, any script should begin with the
 2. bank.rkt
 3. accumulator.rkt
 4. monitor.rkt
+5. rand.rkt
+6. monte_carlo.rkt
+7. monte_carlo_integration.rkt
 
 ## Book Reference
 

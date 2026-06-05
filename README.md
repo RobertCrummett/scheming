@@ -1,9 +1,11 @@
-## Structure and Interpretation of Computer Programs
+# Structure and Interpretation of Computer Programs
 
 These are my solutions to some of the problems in 
 [the Wizard Book](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html).
 I am reading through the book as a form of intellectual
-pleasure this Summer, Year 2026.
+pleasure this Summer, Year 2026. The solution scripts
+are ordered below by the order in which I implemented them
+as I studied this text.
 
 ## Quickstart
 
@@ -22,6 +24,13 @@ Now you should be able to run the code like this,
 ```console
 $ racket hello_world.rkt
 > Hello, World.
+```
+
+Once sicp has been installed, any script should begin with the
+`#lang` line
+
+```racket
+#lang sicp
 ```
 
 ## Chapter One
@@ -89,14 +98,23 @@ $ racket hello_world.rkt
 28. quote_craziness.rkt
 29. symbolic_differentiation.rkt
 30. sets_as_unordered_lists.rkt
-30. sets_as_ordered_lists.rkt
-31. sets_as_binary_trees.rkt
-32. huffman_encoding.rkt
-32. huffman_encoding_1950s_rock_song.rkt
-33. dispatch_on_type_complex_numbers.rkt
-33. data_directed_complex_numbers.rkt
+31. sets_as_ordered_lists.rkt
+32. sets_as_binary_trees.rkt
+33. huffman_encoding.rkt
+34. huffman_encoding_1950s_rock_song.rkt
+35. dispatch_on_type_complex_numbers.rkt
+36. data_directed_complex_numbers.rkt
+37. symbolic_algebra.rkt *UNFINISHED*
 
+## Chapter Three
 
-## Reference
+[Chapter 3](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-19.html#%_chap_3)
+
+1. withdraw.rkt
+2. bank.rkt
+3. accumulator.rkt
+4. monitor.rkt
+
+## Book Reference
 
 [SCIP](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book.html)

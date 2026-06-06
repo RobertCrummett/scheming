@@ -127,6 +127,10 @@ Once sicp has been installed, any script should begin with the
 15. queue.rkt
 16. state_queue.rkt
 17. deque.rkt
+18. table.rkt
+19. table_two_dim.rkt
+20. table_n_dim.rkt
+21. memoized_fibonacci.rkt
 
 ## Book Reference
 

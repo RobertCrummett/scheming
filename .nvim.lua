@@ -1,5 +1,3 @@
-vim.opt.makeprg = "racket " .. vim.fn.expand("%")
-
 local racket_group = vim.api.nvim_create_augroup("RacketProjectConfig", { clear = true })
 
 vim.api.nvim_create_autocmd("FileType", {
@@ -8,6 +6,9 @@ vim.api.nvim_create_autocmd("FileType", {
     pattern = { "racket" },
     callback = function()
         vim.opt_local.wrap = false
+        vim.opt_local.list = true
+        vim.opt_local.listchars = "extends:»"
+        vim.opt_local.makeprg = "racket %"
     end,
 })
 

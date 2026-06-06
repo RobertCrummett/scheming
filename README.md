@@ -123,6 +123,10 @@ Once sicp has been installed, any script should begin with the
 11. mystery.rkt
 12. counting_pairs.rkt
 13. contains_cycle.rkt
+14. mutation_as_assignment.rkt
+15. queue.rkt
+16. state_queue.rkt
+17. deque.rkt
 
 ## Book Reference
 

@@ -1,13 +1,11 @@
 vim.opt.makeprg = "racket " .. vim.fn.expand("%")
 
--- Autocommands
-
 local racket_group = vim.api.nvim_create_augroup("RacketProjectConfig", { clear = true })
 
 vim.api.nvim_create_autocmd("FileType", {
     desc = "Racket file settings",
     group = racket_group,
-    pattern = { "racket", "scheme" },
+    pattern = { "racket" },
     callback = function()
         vim.opt_local.wrap = false
     end,
@@ -23,7 +21,5 @@ vim.api.nvim_create_autocmd("BufNewFile", {
         vim.cmd.startinsert()
     end,
 })
-
--- Language server
 
 vim.lsp.enable('racket_ls')

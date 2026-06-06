@@ -118,6 +118,11 @@ Once sicp has been installed, any script should begin with the
 6. monte_carlo.rkt
 7. monte_carlo_integration.rkt
 8. order_of_evaluation.rkt
+9. mut_append.rkt
+10. cycle.rkt
+11. mystery.rkt
+12. counting_pairs.rkt
+13. contains_cycle.rkt
 
 ## Book Reference
 

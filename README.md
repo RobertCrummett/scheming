@@ -104,7 +104,6 @@ Once sicp has been installed, any script should begin with the
 34. huffman_encoding_1950s_rock_song.rkt
 35. dispatch_on_type_complex_numbers.rkt
 36. data_directed_complex_numbers.rkt
-37. symbolic_algebra.rkt *UNFINISHED*
 
 ## Chapter Three
 

@@ -131,7 +131,6 @@ Once sicp has been installed, any script should begin with the
 19. table_two_dim.rkt
 20. table_n_dim.rkt
 21. memoized_fibonacci.rkt
-22. digital_circuits.rkt
 
 ## Book Reference
 

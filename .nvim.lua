@@ -22,5 +22,3 @@ vim.api.nvim_create_autocmd("BufNewFile", {
         vim.cmd.startinsert()
     end,
 })
-
-vim.lsp.enable('racket_ls')

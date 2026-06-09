@@ -135,7 +135,9 @@ Once sicp has been installed, any script should begin with the
 24. [mixing_delay_and_assignment](src\mixing_delay_and_assignment.rkt)
 25. [more_display_of_delays](src\more_display_of_delays.rkt)
 26. [infinite_streams](src\infinite_streams.rkt)
-27. [implicit_streams](src\implicit_streams.rkt)
+27. [add_streams](src\add_streams.rkt)
+28. [scale_streams](src\scale_streams.rkt)
+29. [implicit_streams](src\implicit_streams.rkt)
 
 ## Book Reference
 

@@ -45,8 +45,8 @@
 (display (stream-ref factorials 3)) (newline)
 (display (stream-ref factorials 4)) (newline)
 
-; We can either use recursive addition of iterated streams
-; or recursive scaling to get the exact same result.
+;; We can either use recursive addition of iterated streams
+;; or recursive scaling to get the exact same result.
 
 (define s (cons-stream 1 (add-streams s s)))  ;; Both sequences produce powers of two
 (define t (cons-stream 1 (scale-stream s 2))) 
@@ -108,12 +108,11 @@
 
 ;; What this reveals is that the additive definition of the
 ;; powers of two extends to higher powers as well!
-;; Clearly the sclaing version also extends. The equivalence
+;; Clearly the scaling version also extends. The equivalence
 ;; of these two approaches is therefore independent of the
 ;; constant factor. This was very difficult for me to see.
 
 ;; Partial sums
-
 (define (partial-sums stream)
   (define s
     (cons-stream (stream-car stream)

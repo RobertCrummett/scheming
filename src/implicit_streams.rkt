@@ -114,10 +114,10 @@
 
 ;; Partial sums
 (define (partial-sums stream)
-  (define s
+  (define partial-sum
     (cons-stream (stream-car stream)
-                 (add-streams (stream-cdr stream) s)))
-  s)
+                 (add-streams (stream-cdr stream) partial-sum)))
+  partial-sum)
 
 (define pst (partial-sums t))
 

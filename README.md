@@ -4,8 +4,7 @@ These are my solutions to some of the problems in
 [the Wizard Book](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html).
 I am reading through the book as a form of intellectual
 pleasure this Summer, Year 2026. The solution scripts
-are ordered below by the order in which I implemented them
-as I studied this text.
+are ordered below by the order in which I implemented them.
 
 ## Quickstart
 
@@ -27,7 +26,7 @@ $ racket hello_world.rkt
 ```
 
 Once sicp has been installed, any script should begin with the
-`#lang` line
+`#lang` line to be compatible with the book:
 
 ```racket
 #lang sicp
@@ -139,6 +138,8 @@ Once sicp has been installed, any script should begin with the
 28. [scale_streams](src/scale_streams.rkt)
 29. [implicit_streams](src/implicit_streams.rkt)
 30. [hammings_problem](src/hammings_problem.rkt)
+31. [expand](src/expand.rkt)
+32. [power_series](src/power_series.rkt)
 
 ## Book Reference
 

@@ -140,6 +140,7 @@ Once sicp has been installed, any script should begin with the
 30. [hammings_problem](src/hammings_problem.rkt)
 31. [expand](src/expand.rkt)
 32. [power_series](src/power_series.rkt)
+33. [inverted_power_series](src/inverted_power_series.rkt)
 
 ## Book Reference
 

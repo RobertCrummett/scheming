@@ -141,6 +141,8 @@ Once sicp has been installed, any script should begin with the
 31. [expand](src/expand.rkt)
 32. [power_series](src/power_series.rkt)
 33. [inverted_power_series](src/inverted_power_series.rkt)
+34. [iterations_as_streams](src/iterations_as_streams.rkt)
+35. [accelerated_streams](src/accelerated_streams.rkt)
 
 ## Book Reference
 

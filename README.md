@@ -144,6 +144,9 @@ Once sicp has been installed, any script should begin with the
 34. [iterations_as_streams](src/iterations_as_streams.rkt)
 35. [accelerated_streams](src/accelerated_streams.rkt)
 36. [natural_logarithm_stream](src/natural_logarithm_stream.rkt)
+37. [streams_of_pairs](src/streams_of_pairs.rkt)
+38. [more_pair_streams](src/more_pair_streams.rkt)
+39. [triples](src/triples.rkt)
 
 ## Book Reference
 

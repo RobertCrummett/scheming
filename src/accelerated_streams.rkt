@@ -81,7 +81,7 @@
 
 ;; We can accelerate the accelerated sequences recursively too!
 
-(define (make-tableau transform s)
+tdefine (make-tableau transform s)
   (cons-stream s (make-tableau transform (transform s))))
 
 (define (accelerated-sequence transform s)

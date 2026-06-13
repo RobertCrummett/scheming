@@ -148,6 +148,7 @@ Once sicp has been installed, any script should begin with the
 38. [more_pair_streams](src/more_pair_streams.scm)
 39. [triples](src/triples.scm)
 40. [merge_weighted](src/merge_weighted.scm)
+41. [ramanujan](src/ramanujan.scm)
 
 ## Book Reference
 

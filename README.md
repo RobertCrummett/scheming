@@ -149,6 +149,7 @@ Once sicp has been installed, any script should begin with the
 39. [triples](src/triples.scm)
 40. [merge_weighted](src/merge_weighted.scm)
 41. [ramanujan](src/ramanujan.scm)
+42. [signals](src/signals.scm)
 
 ## Book Reference
 

@@ -150,6 +150,8 @@ Once sicp has been installed, any script should begin with the
 40. [merge_weighted](src/merge_weighted.scm)
 41. [ramanujan](src/ramanujan.scm)
 42. [signals](src/signals.scm)
+43. [sign_change](src/sign_change.scm)
+44. [integral_stream](src/integral_stream.scm)
 
 ## Book Reference
 
